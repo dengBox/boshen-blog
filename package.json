@@ -1,0 +1,28 @@
+{
+  "name": "ants-blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengBox/ants-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "javascript"
+  ],
+  "author": "dengbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengBox/ants-blog/issues"
+  },
+  "homepage": "https://github.com/dengBox/ants-blog#readme",
+  "dependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-antdocs": "^1.3.5"
+  }
+}
