@@ -1,19 +1,22 @@
-export default {
-  base: 'docs/',
+module.exports = {
+  base: '/boshen/',
+  // dest: './docs',
   // title: '',
   // description: '',
   head: [],
-  theme: 'antdocs',
+  open: true,
+  // theme: 'antdocs',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: 'VuePress',
-      description: '记录我的程生活',
+      description: '记录我的编程生活',
     },
-    '/zh/': {
+    '/en/': {
       lang: 'en-US',
       title: 'VuePress',
       description: 'Record my programming lifer',
     }
-  }
+  },
+  plugins: []
 }
