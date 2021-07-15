@@ -1,1 +1,0 @@
-https://www.elastic.co/guide/cn/elasticsearch/guide/2.x/running-elasticsearch.html
